@@ -5,6 +5,7 @@
 ul {
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-left:  50px;
 }
 
 h1 {
@@ -60,7 +61,7 @@ a.disabled {
     background-color: black;
     height: 5px;
     display: inline-block;
-    width: 650%;
+    width: 100%;
 }
 
 footer a,
