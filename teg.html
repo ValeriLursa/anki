@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,104 @@
     <title>Tegs</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <ol>
-        <li>
-            <p class="item ">&lt;html&gt;</p>
-            <p class="item">Главный тег сайта</p>
-        </li>
-        <li>
-            <p class="item">&lt;body&gt;</p>
-            <p class="item">Тег для хранения контента веб-страницы, которые видны пользователю</p>
-        </li>
-        <li>
-            <p class="item">&lt;head&gt;</p>
-            <p class="item">Тег для хранения других элементов, цель которых - помочь браузеру в работе с контентом на веб-странице</p>
-        </li>
 
-    </ol>
+<body>
+    <h1>Основные теги и атрибуты</h1>
+    <table>
+        <tr>
+            <td class="item "><span>&lt;html&gt;</span></td>
+            <td>-</td>
+            <td class="item">является контейнером, который заключает в себе всё содержимое веб-страницы</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/html'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;head&gt;</span></td>
+            <td>-</td>
+            <td class="item">предназначен для хранения других элементов, цель которых — помочь браузеру в работе с
+                данными</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/head'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;title&gt;</span></td>
+            <td>-</td>
+            <td class="item">Определяет заголовок вкладки сайта</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/title'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;body&gt;</span></td>
+            <td>-</td>
+            <td class="item">предназначен для хранения содержания веб-страницы (контента), отображаемого в окне браузера
+            </td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/body'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;h[1-6]&gt;</span></td>
+            <td>-</td>
+            <td class="item">заголовки разного уровня важности. По умолчанию отображаются крупно и с жирным начертанием
+            </td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/h1'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;img&gt;</span></td>
+            <td>-</td>
+            <td class="item">предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG
+                или PNG</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/img'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;img <b>src</b>="URL"&gt;</span></td>
+            <td>-</td>
+            <td class="item">атрибут, предназначеный для добавления адреса на файл с картинкой</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/img/src'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;img <b>width</b>="100px"&gt;</span></td>
+            <td>-</td>
+            <td class="item">атрибут для изменения ширины картинки</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/img/width'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;p&gt;</span></td>
+            <td>-</td>
+            <td class="item">определяет текстовый абзац. Является <b>блочным</b> элементом, всегда начинается с новой
+                строки. Абзацы текста идущие друг за другом разделяются между собой отбивкой, пустым промежутком</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/p'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;br&gt;</span></td>
+            <td>-</td>
+            <td class="item">устанавливает перенос строки в том месте, где этот тег находится</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/br'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;a&gt;</span></td>
+            <td>-</td>
+            <td class="item">тег для создания ссылок</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/a'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;a <b>href</b>="URL"&gt;</span></td>
+            <td>-</td>
+            <td class="item">атрибут, которыйпередает адрес для ссылки, на которую нужно перейти</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/a/href'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;iframe&gt;</span></td>
+            <td>-</td>
+            <td class="item">позволяет добавить видео на сайт с другого сайта</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/iframe'">Словарь</a></td>
+        </tr>
+        <tr>
+            <td class="item "><span>&lt;link&gt;</span></td>
+            <td>-</td>
+            <td class="item">устанавливает связь с внешним документом вроде файла со стилями или со шрифтами</td>
+            <td><a onclick="location.href='http://htmlbook.ru/html/link'">Словарь</a></td>
+        </tr>
+    </table>
+    <footer>
+        <span><a href="index.html">Назад</a></span>
+        <span>Author: VaLurs</span>
+    </footer>
 </body>
+
 </html>
