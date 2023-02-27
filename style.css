@@ -76,3 +76,17 @@ footer {
 footer a {
     margin-right: 50px;
 }
+
+.theory_a{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 0px 100px;
+    font-size: 28px;
+}
+
+.theory_a:hover{
+    text-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
