@@ -73,6 +73,12 @@ footer {
     padding: 10px;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer a {
     margin-right: 50px;
 }
